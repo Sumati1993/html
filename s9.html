@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>MARQUEE TAG</title>
+    </head>
+    <body>
+        <center>
+            <h1>Marquee tag..!</h1>
+        </center>
+        <hr>
+        <marquee>THIS IS A MARQUEE TAG..!</marquee>
+        <marquee><a href="#">THIS IS A MARQUEE TAG..!</a></marquee>
+        <marquee bgcolor="teal">THIS IS A MARQUEE TAG..!</marquee>
+
+        <br><hr><br>
+
+       <marquee behavior="alternate" bgcolor="skyblue">THIS IS AN ALTERNATE MARQUEE TAG..!</marquee> <br><br>
+       <!-- right to left and left to right -->
+
+       <marquee behavior="scroll" bgcolor="skyblue">THIS IS A SCROLL MARQUEE TAG..!</marquee> <br><br>
+       <!-- keeps scrolling from right to left -->
+
+
+       <marquee behavior="slide" bgcolor="skyblue">THIS IS A SLIDE MARQUEE TAG..!</marquee> <br><br>
+       <!-- right to left and stops -->
+       <hr>
+
+       <marquee direction="right" bgcolor="skyblue">THIS IS A right direction MARQUEE TAG..!</marquee> <br><br>
+       <marquee direction="left" bgcolor="skyblue">THIS IS A left direction MARQUEE TAG..!</marquee> <br><br>
+       <marquee direction="up" bgcolor="skyblue" height="100">THIS IS AN up direction MARQUEE TAG..!</marquee> <br><br>
+       <marquee direction="down" bgcolor="skyblue" height="100">THIS IS A down direction MARQUEE TAG..!</marquee> <br><br>
+       <hr>
+
+       <marquee bgcolor="yellow" scrollamount="1">MARQUEE TAG...!</marquee> <br><br>
+       <marquee bgcolor="yellow" scrollamount="20" id="test">MARQUEE TAG...!</marquee> <br><br>
+       <marquee bgcolor="yellow" scrollamount="5">MARQUEE TAG...!</marquee> <br><br>
+       <marquee bgcolor="yellow" scrollamount="10">MARQUEE TAG...!</marquee> <br><br>
+       <hr>
+       
+        <script>
+            document.getElementById("test").onmouseover=function()
+            {
+                document.getElementById("test").stop();
+            }
+            document.getElementById("test").onmouseleave=function()
+            {
+                document.getElementById("test").start();
+            }
+        </script>
+    </body>
+</html>

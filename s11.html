@@ -1,0 +1,242 @@
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <center>
+            <h1>HTML FORM TAG...!</h1>
+        </center>
+        <hr>
+
+        <h3>Default form...!</h3>
+        <form action="" method="post">
+            <button type="button">CANCEL</button>
+            <button type="reset">RESET</button>
+            <button type="submit">SUBMIT</button>
+        </form>
+        <hr>
+        <h2>Testcase form..!</h2>
+        <form action="" autocomplete="off">
+            <label for="">ENTER FIRST NAME :</label>
+            <input type="text" placeholder="First Name" name="firstname" id="firstname" value="No" required>
+
+            <label for="">ENTER MIDDLE NAME :</label>
+            <input type="text" placeholder="Middle Name" name="middlename" id="middlename" minlength="5" maxlength="10" required>
+
+            <label for="">ENTER LAST NAME :</label>
+            <input type="text" placeholder="Last Name" name="lastname" id="lastname" required>
+
+            <button type="button">CANCEL</button>
+            <button type="reset">RESET</button>
+            <button type="submit">SUBMIT</button>
+        </form>
+
+        <hr>
+
+        <h3>Form Components..!</h3>
+        <form>
+            <fieldset>
+                <legend>FIRST NAME</legend>
+                <label for="">ENTER FIRST NAME :</label>
+                <input type="text" placeholder="First Name" name="firstname" id="firstname" value="No" readonly required>
+            </fieldset>
+
+            <fieldset>
+                <legend>MIDDLE NAME</legend>
+                <label for="">ENTER MIDDLE NAME :</label>
+                <input type="text" placeholder="Middle Name" name="middlename" id="middlename" minlength="5" maxlength="10" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>LAST NAME</legend>
+                <label for="">ENTER LAST NAME :</label>
+                <input type="text" placeholder="Last Name" name="lastname" id="lastname" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Button</legend>
+                <label for="">Input type is button</label>
+                <input type="button" value="Male">
+                <input type="button" value="Female">
+            </fieldset>
+
+            <fieldset>
+                <legend>Checkbox</legend>
+                <p for="">Input type is checkbox, used to select more than one option</p>
+                <h3>Languages</h3>
+                <label for="">Kannada</label>
+                <input type="checkbox" value="Kannada" name="kannada" id="kannada">
+
+                <label for="">English</label>
+                <input type="checkbox" value="English" name="english" id="english">
+
+                <label for="">Hindi</label>
+                <input type="checkbox" value="Hindi" name="hindi" id="hindi">
+            </fieldset>
+
+            <fieldset>
+                <legend>Color</legend>
+                <label for="">Input type is Color</label>
+                <input type="color">
+            </fieldset>
+
+            <fieldset>
+                <legend>Date</legend>
+                <label for="">Input type is date</label>
+                <input type="date">
+            </fieldset>
+
+            <fieldset>
+                <legend>DateTime</legend>
+                <label for="">Input type is datetime</label>
+                <input type="datetime" placeholder="Date and time">
+            </fieldset>
+
+            <fieldset>
+                <legend>DateTimeLocal</legend>
+                <label for="">Input type is datetimelocal</label>
+                <input type="datetime-local">
+            </fieldset>
+
+            <fieldset>
+                <legend>Email</legend>
+                <label for="">Input type is Email</label>
+                <input type="email" placeholder="email">
+            </fieldset>
+
+            <fieldset>
+                <legend>File</legend>
+                <label for="">Input type is File</label>
+                <input type="file">
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Hidden</legend>
+                <label for="">Input type is hidden</label>
+                <input type="hidden" value="hidden">
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Image</legend>
+                <label for="">Input type is image</label>
+                <input type="image" src="Assets/Images/image1.jpg" height="300">
+            </fieldset>
+
+            <fieldset>
+                <legend>Month</legend>
+                <label for="">Input type is month</label>
+                <input type="month">
+            </fieldset>
+
+            <fieldset>
+                <legend>Number</legend>
+                <label for="">Input type is Number</label>
+                <input type="number" value="number">
+            </fieldset>
+
+            <fieldset>
+                <legend>Password</legend>
+                <label for="">Input type is password</label>
+                <input type="password" placeholderr="password">
+            </fieldset>
+
+            <fieldset>
+                <legend>Radio</legend>
+                <label for="">Input type is Radio, used to check true or false</label>
+                <h3>Gender</h3>
+                <label for="">Male</label>
+                <input type="radio" value="male" id="male" name="gender">
+                <label for="">Female</label>
+                <input type="radio" value="female" id="female" name="gender">
+                <!-- name attribute  should be same for both  -->
+            </fieldset>
+
+            <fieldset>
+                <legend>Range</legend>
+                <label for="">Input type is range</label>
+                <input type="range" min="1" max="100" value="10">
+            </fieldset>
+            
+            <fieldset>
+                <legend>Reset</legend>
+                <label for="">Input type is reset</label>
+                <input type="reset" value="RESET">
+            </fieldset>
+
+            <fieldset>
+                <legend>Search</legend>
+                <label for="">Input type is search</label>
+                <input type="search" placeholder="Search here">
+            </fieldset>
+
+            <fieldset>
+                <legend>Submit</legend>
+                <label for="">Input type is submit</label>
+                <input type="submit" value="SUBMIT">
+            </fieldset>
+
+            <fieldset>
+                <legend>Tel</legend>
+                <label for="">Input type is tel</label>
+                <input type="tel" placeholder="Telephone">
+            </fieldset>
+
+            <fieldset>
+                <legend>Time</legend>
+                <label for="">Input type is time</label>
+                <input type="time" placeholder="Time">
+            </fieldset>
+
+            <fieldset>
+                <legend>URL</legend>
+                <label for="">Input type is URL</label>
+                <input type="url" placeholder="URL">
+            </fieldset>
+
+            <fieldset>
+                <legend>Week</legend>
+                <label for="">Input type is week</label>
+                <input type="week" placeholder="Week">
+            </fieldset>
+
+            <fieldset>
+                <legend>Address</legend>
+                <p>Its used for address, feedbacks etc to give big textbox</p>
+                <label for="">Address</label>
+                <textarea name="" id="" cols="50" rows="10" placeholder="Address"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Select Option</legend>
+                <p>It is dropdown option</p>
+                <label for="">Select Qualification</label>
+                <select name="qualification" id="qualification" multiple>
+                    <!-- multiple is used to select more than 1 option. Use ctrl button to select multiple options -->
+                    <option value="" disabled>10th</option>
+                    <!-- disabled cannot allow to select this option -->
+                    <option value="">PUC</option>
+                    <option value="">Degree</option>
+                    <option value="" selected>Masters</option>
+                    <!-- It is selected by default -->
+                    <optgroup>
+                        <option value="">BE in CS</option>
+                        <option value="">BE in Civil</option>
+                        <option value="">BE in Mech</option>
+                        <option value="">BE in IS</option>
+                        <option value="">BE in EEE</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Form Buttons</legend>
+                <button type="button">CANCEL</button>
+                <button type="reset">RESET</button>
+                <button type="submit">SUBMIT</button>
+            </fieldset>
+
+        </form>
+    </body>
+</html>
